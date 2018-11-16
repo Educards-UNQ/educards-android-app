@@ -1,10 +1,8 @@
-package educards.educards_model.game;
+package educards.educards_model;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
-
-import educards.educards_model.card.Card;
 
 public class Board {
 	

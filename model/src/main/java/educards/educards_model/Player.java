@@ -1,4 +1,4 @@
-package educards.educards_model.player;
+package educards.educards_model;
 
 public class Player {
 	

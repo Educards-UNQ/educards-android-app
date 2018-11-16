@@ -1,11 +1,12 @@
-package educards.educards_test.game;
+package educards.educards_test;
 
 import static org.junit.Assert.*;
 import java.util.ArrayList;
 import org.junit.Before;
 import org.junit.Test;
-import educards.educards_model.card.Card;
-import educards.educards_model.game.Board;
+
+import educards.educards_model.Board;
+import educards.educards_model.Card;
 
 public class BoardTest {
  	Board board;
