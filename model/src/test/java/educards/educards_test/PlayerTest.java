@@ -10,18 +10,16 @@ public class PlayerTest {
 	
 	@Before
 	public void setUp() {
-		player = new Player(1,"pepe");
+		player = new Player(1,"an image","pepe",52,"abc");
 	}
 	
 	@Test
 	public void builderTest() {
-		assertTrue("pepe" == player.getUsername());
 		assertTrue(1 == player.getId());
+		assertTrue("an image" == player.getImage());
+		assertTrue("pepe" == player.getUsername());
+		assertTrue(52 == player.getAge());
+		assertTrue("abc" == player.getPassword());
 	}
- 	
-	@Test
-	public void saveHiScoreTest() {
-		player.saveHiScore(40);
-		assertTrue(40 == player.getHiScore());
-	}
+
 }

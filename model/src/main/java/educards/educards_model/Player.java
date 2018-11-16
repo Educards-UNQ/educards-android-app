@@ -3,29 +3,36 @@ package educards.educards_model;
 public class Player {
 	
 	private Integer idPlayer;
+	private String image;
 	private String username;
-	private Integer hiScore = 0;
+	private Integer age;
+	private String password;
 	
-	public Player(Integer id, String name) {
-		idPlayer = id;
-		username = name;
+	public Player(Integer id, String image, String name, Integer age, String password) {
+		this.idPlayer = id;
+		this.image = image;
+		this.username = name;
+		this.age = age;
+		this.password = password;
 	}
-	
-	public void saveHiScore(int score) {
-		if(score > hiScore) {
-			hiScore = score;
-		}
-	}
-	
+
 	public Integer getId() {
 		return idPlayer;
+	}
+
+	public String getImage() {
+		return image;
 	}
 	
 	public String getUsername() {
 		return username;
 	}
 	
-	public Integer getHiScore() {
-		return hiScore;
+	public Integer getAge() {
+		return age;
+	}
+	
+	public String getPassword() {
+		return password;
 	}
 }
