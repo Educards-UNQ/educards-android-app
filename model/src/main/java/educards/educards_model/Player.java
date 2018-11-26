@@ -44,4 +44,16 @@ public class Player {
 	public String getPassword() {
 		return password;
 	}
+	
+	public void editName(String name) {
+		if(!name.isEmpty()) {this.name = name;}
+	}
+	
+	public void editPassword(String password) {
+		if(!name.isEmpty()) {this.password = password;}
+	}
+	
+	public void editYear(Integer year) {
+		if(year>1900 && year<2018) {this.year = year;}
+	}
 }
