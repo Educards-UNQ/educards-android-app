@@ -2,22 +2,24 @@ package educards.educards_model;
 
 public class Player {
 	
-	private Integer idPlayer;
+	private Integer id;
 	private String image;
-	private String username;
+	private String name;
 	private Integer age;
 	private String password;
-	
+
+	public Player (){}
+
 	public Player(Integer id, String image, String name, Integer age, String password) {
-		this.idPlayer = id;
-		this.image = image;
-		this.username = name;
+		this.id = id;
+		this.name = name;
 		this.age = age;
+		this.image = image;
 		this.password = password;
 	}
 
 	public Integer getId() {
-		return idPlayer;
+		return id;
 	}
 
 	public String getImage() {
@@ -25,7 +27,7 @@ public class Player {
 	}
 	
 	public String getUsername() {
-		return username;
+		return name;
 	}
 	
 	public Integer getAge() {
