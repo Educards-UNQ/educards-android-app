@@ -17,6 +17,7 @@ import retrofit.client.Response;
 
 public class MainActivity extends AppCompatActivity {
 
+    Player p;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,9 +33,11 @@ public class MainActivity extends AppCompatActivity {
                 new EducardsFactory().getServiceFactory().getPlayer(playerName.getText().toString(),playerPassword.getText().toString(), new Callback<Player>() {
                     @Override
                     public void success(Player response, Response response2) {
-                        Player p = (Player)response;
+                        p = (Player)response;
                         Intent startIntent = new Intent(MainActivity.this, JugarActivity.class);
-                        startIntent.putExtra("unq.alu.educards_android_app.EXTRA",p.getUsername());
+                        startIntent.putExtra("id",p.getId());
+                        startIntent.putExtra("name", p.getUsername());
+                        startIntent.putExtra("image", p.getImage() );
                         startActivity(startIntent);
                     }
 
@@ -42,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void failure(RetrofitError error) {
                         Toast.makeText(getBaseContext(), "Invalid username or password", Toast.LENGTH_LONG).show();
-                        System.out.print(error.toString());
                     }
                 });
             }

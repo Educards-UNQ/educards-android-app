@@ -12,13 +12,6 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import educards.educards_model.EducardsFactory;
-import educards.educards_model.Ranking;
-import educards.educards_model.RankingPlayer;
-import retrofit.Callback;
-import retrofit.RetrofitError;
-import retrofit.client.Response;
-
 public class RankingDialog extends AppCompatDialogFragment {
 
     @Override
@@ -37,6 +30,11 @@ public class RankingDialog extends AppCompatDialogFragment {
         TextView content3 = view.findViewById(R.id.textViewContentRanking3);
         TextView content4 = view.findViewById(R.id.textViewContentRanking4);
         TextView content5 = view.findViewById(R.id.textViewContentRanking5);
+	TextView content6 = view.findViewById(R.id.textViewContentRanking6);
+        TextView content7 = view.findViewById(R.id.textViewContentRanking7);
+        TextView content8 = view.findViewById(R.id.textViewContentRanking8);
+        TextView content9 = view.findViewById(R.id.textViewContentRanking9);
+        TextView content10 = view.findViewById(R.id.textViewContentRanking10);
 
 
         List<TextView> contents = new ArrayList<>();
@@ -45,8 +43,14 @@ public class RankingDialog extends AppCompatDialogFragment {
         contents.add(content3);
         contents.add(content4);
         contents.add(content5);
+	contents.add(content6);
+        contents.add(content7);
+        contents.add(content8);
+        contents.add(content9);
+        contents.add(content10);
 
-        for (Integer i = 0; i < total  && i < 5; i++) {
+
+        for (Integer i = 0; i < total  && i < 10; i++) {
             String c = getArguments().getString(i.toString());
             contents.get(i).setText(c);
         }
