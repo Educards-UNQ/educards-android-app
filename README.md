@@ -25,6 +25,12 @@ La app contará con un sistema de puntuación y ranking entre los diferentes jug
  - [Sprint 3](./sprint-3/README.md)
  - [Sprint 4](./sprint-4/README.md)
 
+## Grafico de velocidad
+
+https://drive.google.com/drive/folders/1tHKa8qmavY5bgZFQ-oi15aP6k8hAetuW
+
+https://drive.google.com/drive/folders/1tHKa8qmavY5bgZFQ-oi15aP6k8hAetuW
+
 ## Links
 
 - VSM : https://www.draw.io/?client=1#G1t04PWrZ0cz2JD5hdQrBP90ok-5RzXVBL
