@@ -24,7 +24,9 @@ Sprint 6: 28/11/2018
 
 | 😢 | 😀 | 💫 |
 | ------ | ------ | ------ |
-|  | Se pudo llegar a entregar una página de la aplicación|  |
+| Android studio es muy pesado | Se pudo llegar a entregar una página de la aplicación|  |
+| Hay bugs que arreglar| Se aprendio mucho de android | |
+|| Se pudo subir imagenes de perfil||
 
 ## Tareas estimadas para el próximo Sprint
 
