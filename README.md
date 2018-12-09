@@ -24,19 +24,17 @@ La app contará con un sistema de puntuación y ranking entre los diferentes jug
  - [Sprint 2](./sprint-2/README.md)
  - [Sprint 3](./sprint-3/README.md)
  - [Sprint 4](./sprint-4/README.md)
+ - [Sprint 5](./sprint-5/README.md)
+ - [Sprint 6](./sprint-6/README.md)
 
 ## Grafico de velocidad
 
-https://drive.google.com/drive/folders/1tHKa8qmavY5bgZFQ-oi15aP6k8hAetuW
-
-https://drive.google.com/drive/folders/1tHKa8qmavY5bgZFQ-oi15aP6k8hAetuW
+- [Grafico](./sprint-6/grafico.jpeg)
 
 ## Links
 
 - VSM : https://www.draw.io/?client=1#G1t04PWrZ0cz2JD5hdQrBP90ok-5RzXVBL
 
 - User Stories y su estimación: https://docs.google.com/document/d/1WONArqjYKadxQEl_InY9P0b2d5gUXjncmQLwuCudnzo/edit
-
-- Gráfico de velocidad: https://docs.google.com/document/d/1elTxrZnencjkIU3iMRl3Lr6cHfcHaxOrc6DT8vyBTEU/edit
 
 - Tablero de trello : https://trello.com/b/EW7D0skF/educards
